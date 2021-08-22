@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <center><h1 style="border:orange; border-width:5px; border-style:solid; font-size:40px;"><b>Fore more information please watch video or listen to the Audio</b></h1></center>`
+
+        <p class="lead">What is the importance of books in our life? Books play a quintessential role in every student’s life by introducing them
+            to a world of imagination, providing knowledge of the outside world, improving their reading, writing and speaking skills
+            as well as boosting memory and intelligence. The importance of books in our life cannot be undermined for they not only
+            help in broadening our horizons but also act as doorways of connecting us with the world around us. They function as survival
+            kits, they influence us and leave an impact on us. Want to know the benefits of books and the importance of reading? Curious
+            about how books impact
+            our lives? Read this blog to know all about the importance of books in a student’s life, essays on importance of reading books,
+            quotes and more!</p>
+
+        <video width="720" height="540" controls>
+            <source src="The Joy Of Books.mkv" type="video/mp4">
+            <source src="The Joy Of Books.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+
+        <p class="lead">
+            PODCAST:<br>
+            TRANSCRIPT:<br>
+            The second chapter of Leo Tolstoy’s short story “The Death of Ivan Ilyich” begins with the following sentence:
+            “Ivan Ilyich’s life had been most simple and most ordinary and therefore most terrible.” I first read this story as a teenager and I can remember being more than a little struck by it; what is this “therefore”? Some years later I read Hannah Arendt’s Eichmann in Jerusalem, the famous subtitle of which is A Report on the Banality of Evil. Since the book’s publication in 1963 this phrase has enjoyed wide currency: evil is banal or, as Tolstoy would say, simple and ordinary.
+            What does this mean? The word “evil” today most often has a religious connotation, but Arendt wasn’t using it in this way. What was she getting at?
+
+        </p>
+
+        <audio controls>
+          <source src="evil.ogg" type="audio/ogg">
+          <source src="evil.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+
+        <p class="lead"><h4><strong>What is Amazon Books?</strong><br></h4>
+            Amazon Books is all about discovery. We’ve applied over twenty years of experience as a customer-focused,
+            online retailer to build a store that integrates the benefits of offline and online shopping and spurs discovery
+            of great books, Amazon devices and customer favorites from amazon.com. </p>
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/v=QPN6OCs_mlM&ab_channel=tatianagfeltrin" frameborder="0" allowfullscreen></iframe>
+        <h2 class="lead">Near by you Book Store</h2>
+
+        <p>Click the button to get your coordinates.</p>
+
+                <button onclick="getLocation()">Try It</button>
+
+                <p id="demo"></p>
+
+                <script>
+                var x = document.getElementById("demo");
+
+                function getLocation() {
+                  if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                  } else {
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                  }
+                }
+
+                function showPosition(position) {
+                  x.innerHTML = "Latitude: " + position.coords.latitude +
+                  "<br>Longitude: " + position.coords.longitude;
+                }
+                </script>
+
+       <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=bangalor&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Go</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+        <center> <h3>Thank you for visiting our website.</h3></center>
+    </div>
+
+
+</body>
+</html>
