@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="quiz">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="question"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="question">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="number"/>
+        <xs:element ref="ques"/>
+        <xs:element ref="option1"/>
+        <xs:element ref="option2"/>
+        <xs:element ref="option3"/>
+        <xs:element ref="option4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="number" type="xs:NCName"/>
+  <xs:element name="ques" type="xs:string"/>
+  <xs:element name="option1" type="xs:string"/>
+  <xs:element name="option2" type="xs:string"/>
+  <xs:element name="option3" type="xs:string"/>
+  <xs:element name="option4" type="xs:string"/>
+</xs:schema>
